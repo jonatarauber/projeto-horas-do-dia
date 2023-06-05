@@ -20,3 +20,7 @@ function carregar(){
         img.src = './imagens/noite.png'
     }
 }
+function autoRecarrega(){
+    window.location=window.location.href
+}
+setInterval('autoRecarrega()', 60000)
